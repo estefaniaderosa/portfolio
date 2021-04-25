@@ -24,7 +24,7 @@ function App() {
     <h1 className="section-title">{language === "spanish" ? "Proyectos" : "Projects"}</h1>
     <div className="box">
     <Project
-      pimage= './images/gbhotel.png'
+      pimage= {`${process.env.PUBLIC_URL}/images/gbhotel.png`}
       demo= 'https://estefaniaderosa.github.io/gbhotel/'
       palt='project-img'
       pname='Grand Beach Hotel'
@@ -35,7 +35,7 @@ function App() {
 
       <div className="box">
     <Project
-     pimage= './images/todo.png'
+     pimage= {`${process.env.PUBLIC_URL}/images/todo.png`}
      palt='project-img'
       pname="What's the plan for today?"
       demo='https://estefaniaderosa.github.io/planner/'
@@ -46,7 +46,7 @@ function App() {
 
       <div className="box">
     <Project
-     pimage= './images/flappyghost.png'
+     pimage= {`${process.env.PUBLIC_URL}/images/flappyghost.png`}
      palt='project-img'
       pname='FlappyGhost'
       demo='https://estefaniaderosa.github.io/flappyghost'
@@ -58,7 +58,7 @@ function App() {
 
       <div className="box">
     <Project
-     pimage= './images/pokedex.png'
+     pimage= {`${process.env.PUBLIC_URL}/images/pokedex.png`}
      palt='project-img'
      demo='https://estefaniaderosa.github.io/pokedex'
      git='https://github.com/estefaniaderosa/pokedex'
@@ -70,7 +70,7 @@ function App() {
 
       <div className="box">
     <Project
-     pimage= './images/portfolio.png'
+     pimage= {`${process.env.PUBLIC_URL}/images/portfolio.png`}
      palt='project-img'
      demo='https://estefaniaderosa.github.io/portfolio'
      git='https://github.com/estefaniaderosa/portfolio'

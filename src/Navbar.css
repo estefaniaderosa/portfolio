@@ -28,10 +28,12 @@
     transition: all .3s ease-in-out;
     font-size: 18px;
     font-family: inherit;
+    background-color:transparent;
 }
 
 .language button:hover{
     color:rgb(114, 112, 112);  
+    background-color:transparent;
 }
 
 .sections{
@@ -58,16 +60,9 @@
 
 @media only screen and (max-width: 1200px) {
 
-       
-  
-       
-    
-       
        .sections{
-          
            width:40%;
            margin-right: 10px;
-           
        }
        
        
