@@ -2,16 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { Provider } from "react-redux";
+import { createStore, compose } from "redux";
+import { rootReducer } from "./Redux";
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; //para poder usar reduxDevTools uno eso con compose
+
+const store = createStore( //para formar el store uno el reducer y lo de arriba , sino quiero reduxDevTools pongo compose ahi directamente
+  rootReducer,
+  composeEnhancers()
+);
+
+//envuelvo a la app con el provider para poder acceder al store desde toda la app
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}> 
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+/* .vector1{
+    background: url('./images/14.svg') no-repeat;
+    background-size:cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 717px;
+    z-index: -3;
+    
+} */
+
+
+/* .vector2{
+     background: url('./images/14.svg') no-repeat;
+    background-size:cover;  
+    
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+   
+    z-index: -2;
+} */
+
+
+.project-container-father {
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box{
+    margin-bottom: 150px;
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#aboutme{
+    position:absolute;
+    top:10px;
+}
+
+#projects{
+    position:absolute;
+    top:1500px;
+}
+
+#skills{
+    position:absolute;
+    top:630px;
+}
+
+#contact{
+    position:absolute;
+    top:5600px;
+}
+
+.section-title{
+    font-size:55px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    /* margin-left: -1000px; */
+}
+
+@media only screen and (max-width: 1024px) {
+  
+    /* .vector1{
+        height:1000px;
+        /* min-width: 370px; 
+    } */
+    .project-container-father{
+        margin-top: 1700px;
+    }
+
+    .box{
+        width:auto;
+    }
+
+    .section-title{
+        font-size:60px;
+        text-align:center;
+        margin-left: 0px;
+        
+    }
+
+ 
+    
+    #projects{
+        top:1500px;
+    }
+    
+    #skills{
+        top:870px;
+    }
+    
+    #contact{
+        top:8100px !important;
+    }
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .footer{
+      text-align:center;
+      margin-bottom:20px;
   }
-  to {
-    transform: rotate(360deg);
+
+
+
+  @media only screen and (max-width: 1200px) {
+    .section-title{
+        font-size: 39px;
+        margin-bottom: 80px;
+        margin-top: 0px;
+    }
+
+    .box{
+        margin-bottom: 90px;
+    }
+
+    .project-container-father{
+        margin-top: 10px;
+    }
+
+    #contact{
+       
+        top:5300px;
+    }
   }
-}
+
+  @media only screen and (max-width: 690px){
+    #aboutme{
+        position:absolute;
+        top:10px;
+    }
+    
+    #projects{
+        position:absolute;
+        top:1600px;
+    }
+    
+    #skills{
+        top:1000px;
+    }
+    
+    #contact{
+        position:absolute;
+        top:5850px !important; 
+    }
+  }
