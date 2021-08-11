@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eaf1184b.chunk.css",
-    "main.js": "/portfolio/static/js/main.4133de0b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4133de0b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.389f2c15.chunk.css",
+    "main.js": "/portfolio/static/js/main.ad88b268.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ad88b268.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
     "static/js/2.8b4ab192.chunk.js": "/portfolio/static/js/2.8b4ab192.chunk.js",
     "static/js/2.8b4ab192.chunk.js.map": "/portfolio/static/js/2.8b4ab192.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.eaf1184b.chunk.css.map": "/portfolio/static/css/main.eaf1184b.chunk.css.map",
+    "static/css/main.389f2c15.chunk.css.map": "/portfolio/static/css/main.389f2c15.chunk.css.map",
     "static/js/2.8b4ab192.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8b4ab192.chunk.js.LICENSE.txt",
     "static/media/Skills.css": "/portfolio/static/media/14.e80ca7bc.svg",
-    "static/media/CVESTEFANIADEROSA.33c9c85b.pdf": "/portfolio/static/media/CVESTEFANIADEROSA.33c9c85b.pdf",
-    "static/media/CVESTEFANIADEROSAEN.a36707d2.pdf": "/portfolio/static/media/CVESTEFANIADEROSAEN.a36707d2.pdf"
+    "static/media/CVESTEFANIADEROSAENNF.62bc7bcd.pdf": "/portfolio/static/media/CVESTEFANIADEROSAENNF.62bc7bcd.pdf",
+    "static/media/CVESTEFANIADEROSAESNF.37d1296a.pdf": "/portfolio/static/media/CVESTEFANIADEROSAESNF.37d1296a.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.43d9a0ba.js",
     "static/js/2.8b4ab192.chunk.js",
-    "static/css/main.eaf1184b.chunk.css",
-    "static/js/main.4133de0b.chunk.js"
+    "static/css/main.389f2c15.chunk.css",
+    "static/js/main.ad88b268.chunk.js"
   ]
 }
