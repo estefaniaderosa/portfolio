@@ -30,7 +30,7 @@ function App() {
             demo='https://estefaniaderosa.github.io/nuwescl1/'
             git='https://github.com/estefaniaderosa/nuwescl1'
             pname='NUWE SCL Frontend'
-            pdescription={language === "spanish" ? "Solución al primer reto Frontend de la Summer Coding League de NUWE, en el que he obtenido el 1er puesto en el ranking." : "Winner project for the first week of the Nuwe.io Summer Coding League."}
+            pdescription={language === "spanish" ? "Solución al primer reto Frontend de la Summer Coding League de NUWE, en el que he obtenido el 1er puesto en el ranking." : "Winner project of the first week for the Nuwe.io Summer Coding League Frontend challenge: Nuwe Basic Profile. "}
             ptags='#React &nbsp;&nbsp; #Redux &nbsp;&nbsp; #Hooks &nbsp;&nbsp; #UnsplashAPI &nbsp;&nbsp; #Responsive &nbsp;&nbsp; #Flexbox' />
         </div>
 
