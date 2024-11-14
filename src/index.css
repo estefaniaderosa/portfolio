@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap");
+* {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -8,11 +8,10 @@
 	outline: none;
 }
 body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color:rgb(61, 61, 61);
-  font-family: 'Roboto Slab', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: rgb(61, 61, 61);
+	font-family: "Roboto Slab", "Lucida Sans", "Lucida Sans Regular",
+		"Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-

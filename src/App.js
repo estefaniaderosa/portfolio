@@ -7,8 +7,6 @@ import Project from "./Project";
 import Skills from "./Skills";
 import { useSelector } from "react-redux";
 
-
-
 function App() {
 	const language = useSelector((store) => store.language);
 	return (
@@ -20,10 +18,29 @@ function App() {
 			<Skills />
 			<div className='vector1'></div>
 			<div id='projects'></div>
-			<div className='project-container-father'>
+
+			<div className='box'>
 				<h1 className='section-title'>
 					{language === "spanish" ? "Proyectos" : "Projects"}
 				</h1>
+			</div>
+			<div className='project-container-father'>
+				{/* CHANGE */}
+				<div className='box'>
+					<Project
+						pimage={`${process.env.PUBLIC_URL}/images/wild-oasis.png`}
+						palt='project-img'
+						demo='https://the-wild-oasis-six-ruddy.vercel.app/'
+						git='https://github.com/estefaniaderosa/the-wild-oasis'
+						pname='The Wild Oasis'
+						pdescription={
+							language === "spanish"
+								? "App que simula la página de un hotel donde los usuarios pueden registrarse o iniciar sesión fácilmente con su cuenta de Google gracias a Auth.js. La app permite realizar reservas, así como editarlas o cancelarlas según sus necesidades. Todo está conectado a una base de datos en Supabase, asegurando que cada reserva se almacene y gestione en tiempo real. Desarrollada en Next.js con un diseño moderno y receptivo usando Tailwind CSS, esta plataforma ofrece una experiencia de usuario fluida y atractiva para gestionar reservas de manera intuitiva y eficiente."
+								: "An interactive hotel page simulation where users can easily sign up or log in using their Google account through Auth.js. The app allows users to make, edit, and cancel reservations as needed. It’s connected to a Supabase database, ensuring each reservation is stored and managed in real time. Developed in Next.js with a modern, responsive design using Tailwind CSS, this platform provides a smooth and engaging user experience for managing reservations intuitively and efficiently. Deployed on Vercel.  "
+						}
+						ptags='#NextJS &nbsp;&nbsp; #AuthJS &nbsp;&nbsp; #Supabase &nbsp;&nbsp; #TailwindCSS &nbsp;&nbsp; #ContextAPI'
+					/>
+				</div>
 
 				<div className='box'>
 					<Project
