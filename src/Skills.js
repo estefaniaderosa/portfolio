@@ -57,7 +57,7 @@ function Skills() {
 					</div>
 					<div className='skill'>
 						<img
-							src={`${process.env.PUBLIC_URL}/images/nextjs.png`}
+							src={`${process.env.PUBLIC_URL}/images/nextjs.svg`}
 							alt='Next Logo'
 							className='logo'
 						/>
