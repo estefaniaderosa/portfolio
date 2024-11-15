@@ -1,8 +1,8 @@
 import React from "react";
 import "./Contact.css";
 import { useSelector } from "react-redux";
-import Pdf from "./PDF/CVESTEFANIADEROSAESNF.pdf";
-import PdfEn from "./PDFEN/CVESTEFANIADEROSAENNF.pdf";
+import Pdf from "./PDF/CVESTEFANIADEROSAGIL.pdf";
+
 
 function Contact() {
 	const language = useSelector((store) => store.language);
@@ -37,7 +37,7 @@ function Contact() {
 						</a>
 					</div>
 					<div className='contact'>
-						<a href={language === "spanish" ? Pdf : PdfEn} target='_blank'>
+						<a href={Pdf} target='_blank'>
 							<img
 								src={`${process.env.PUBLIC_URL}/images/cv.png`}
 								alt='resume icon'
