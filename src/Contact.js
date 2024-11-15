@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { useSelector } from "react-redux";
-import Pdf from "./PDF/CVESTEFANIADEROSAGIL.pdf";
+import Pdf from "./PDF/CVESTEFANIADEROSA.pdf";
 
 
 function Contact() {
