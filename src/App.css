@@ -145,15 +145,15 @@
 
 	#projects {
 		position: absolute;
-		top: 1600px;
+		top: 2350px;
 	}
 
 	#skills {
-		top: 1000px;
+		top: 1200px;
 	}
 
 	#contact {
 		position: absolute;
-		top: 6290px !important;
+		top: 8290px !important;
 	}
 }
