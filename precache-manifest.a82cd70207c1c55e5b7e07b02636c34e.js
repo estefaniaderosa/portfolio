@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87ad5eab368d1a4434246268572c616f",
+    "revision": "d31d721790fb454cbe481d4099008f3e",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "60f0952e31deecace0b0",
+    "revision": "c5f20f478ada02489912",
     "url": "/portfolio/static/css/main.05416df5.chunk.css"
   },
   {
-    "revision": "bc7d584e4accb3168508",
-    "url": "/portfolio/static/js/2.f3f5b7d6.chunk.js"
+    "revision": "0581ccdc83947f4ea777",
+    "url": "/portfolio/static/js/2.87a3a660.chunk.js"
   },
   {
     "revision": "8f06b9e0c45e6669bf287c6947cdbc57",
-    "url": "/portfolio/static/js/2.f3f5b7d6.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.87a3a660.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60f0952e31deecace0b0",
-    "url": "/portfolio/static/js/main.50ac14d4.chunk.js"
+    "revision": "c5f20f478ada02489912",
+    "url": "/portfolio/static/js/main.922ffc1e.chunk.js"
   },
   {
     "revision": "0d4bf47b70941af9967b",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52ab5dc2d43066ebcabf0a4a98dbddec",
     "url": "/portfolio/static/media/CVESTEFANIADEROSA.52ab5dc2.pdf"
+  },
+  {
+    "revision": "354f3a914b33352b3b8fec3faac215cf",
+    "url": "/portfolio/static/media/CVESTEFANIADEROSA_ES.354f3a91.pdf"
   }
 ]);
