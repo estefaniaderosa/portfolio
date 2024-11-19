@@ -4,6 +4,33 @@ import { useSelector } from "react-redux";
 import Pdf from "./PDF/CVESTEFANIADEROSA.pdf";
 import Pdf_es from "./PDF_ES/CVESTEFANIADEROSA_ES.pdf";
 
+const contactItems = [
+	{
+		name: "LinkedIn",
+		url: "https://www.linkedin.com/in/estefaniaderosagil/",
+		imgUrl: "/images/linkedin.png",
+	},
+	{
+		name: "Mail",
+		url: "mailto:estefania.derosa@gmail.com",
+		imgUrl: "/images/mail.png",
+	},
+	{
+		name: "CV",
+		imgUrl: "/images/cv.png",
+	},
+	{
+		name: "Github",
+		url: "https://github.com/estefaniaderosa",
+		imgUrl: "/images/github.png",
+	},
+	{
+		name: "Codepen",
+		url: "https://codepen.io/estefaniaderosa",
+		imgUrl: "/images/codepen.png",
+	},
+];
+
 function Contact() {
 	const language = useSelector((store) => store.language);
 
@@ -14,58 +41,26 @@ function Contact() {
 					{language === "spanish" ? "Contacto" : "Contact"}
 				</h1>
 				<div className='contact-container'>
-					<div className='contact'>
-						<a
-							href='https://www.linkedin.com/in/estefaniaderosagil/'
-							target='_blank'>
-							<img
-								src={`${process.env.PUBLIC_URL}/images/linkedin.png`}
-								alt='LinkedIn icon'
-								className='icon'
-							/>
-							<p>LinkedIn</p>
-						</a>
-					</div>
-					<div className='contact'>
-						<a href={"mailto:estefania.derosa@gmail.com"}>
-							<img
-								src={`${process.env.PUBLIC_URL}/images/mail.png`}
-								alt='mail icon'
-								className='icon'
-							/>
-							<p>Mail</p>
-						</a>
-					</div>
-					<div className='contact'>
-						<a href={language === "spanish" ? Pdf_es : Pdf} target='_blank'>
-							<img
-								src={`${process.env.PUBLIC_URL}/images/cv.png`}
-								alt='resume icon'
-								className='icon'
-							/>
-							<p>CV</p>
-						</a>
-					</div>
-					<div className='contact'>
-						<a href='https://github.com/estefaniaderosa' target='_blank'>
-							<img
-								src={`${process.env.PUBLIC_URL}/images/github.png`}
-								alt='github icon'
-								className='icon'
-							/>
-							<p>Github</p>
-						</a>
-					</div>
-					<div className='contact'>
-						<a href='https://codepen.io/estefaniaderosa' target='_blank'>
-							<img
-								src={`${process.env.PUBLIC_URL}/images/codepen.png`}
-								alt='codepen icon'
-								className='icon'
-							/>
-							<p>Codepen</p>
-						</a>
-					</div>
+					{contactItems.map((item, i) => {
+						return (
+							<div className='contact' key={i}>
+								<a
+									href={
+										item.name === "CV"
+											? `${language === "spanish" ? Pdf_es : Pdf}`
+											: item.url
+									}
+									target='_blank'>
+									<img
+										src={`${process.env.PUBLIC_URL}${item.imgUrl}`}
+										alt={item.name}
+										className='icon'
+									/>
+									<p>{item.name}</p>
+								</a>
+							</div>
+						);
+					})}
 				</div>
 			</div>
 		</>

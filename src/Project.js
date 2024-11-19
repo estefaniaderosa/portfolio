@@ -1,22 +1,22 @@
 import "./Project.css";
 import React from "react";
 
-const Project = (props) => {
+const Project = ({image,alt,name,description,tags,demo,git}) => {
 	return (
 		<>
 			<div className='project-container'>
 				<div className='project-img'>
-					<img src={props.pimage} alt={props.palt} className='pimg' />
+					<img src={image} alt={alt} className='pimg' />
 				</div>
 				<div className='project-text'>
-					<h1>{props.pname}</h1>
-					<p className='description'>{props.pdescription}</p>
-					<p className='tags'>{props.ptags}</p>
+					<h1>{name}</h1>
+					<p className='description'>{description}</p>
+					<p className='tags'>{tags}</p>
 					<div className='button-container'>
-						<a href={props.demo} target='_blank' className='button'>
+						<a href={demo} target='_blank' className='button'>
 							Demo
 						</a>
-						<a href={props.git} target='_blank' className='button'>
+						<a href={git} target='_blank' className='button'>
 							Code
 						</a>
 					</div>

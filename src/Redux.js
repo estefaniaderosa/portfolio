@@ -1,7 +1,7 @@
 const CHANGE_LANGUAGE = "CHANGE_LANGUAGE";
 
 const INITIAL_STATE = {
-	language: "spanish",
+	language: "english",
 };
 
 export const rootReducer = (state = INITIAL_STATE, action) => {

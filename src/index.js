@@ -6,16 +6,13 @@ import { Provider } from "react-redux";
 import { createStore, compose } from "redux";
 import { rootReducer } from "./Redux";
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; //para poder usar reduxDevTools uno eso con compose
+//redux devtools config
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-const store = createStore(
-	//para formar el store uno el reducer y lo de arriba , sino quiero reduxDevTools pongo compose ahi directamente
-	rootReducer,
-	composeEnhancers()
-);
+//To create store, joined reducer and the enhancers (when not using redux devtools compose can be used from here)
+const store = createStore(rootReducer, composeEnhancers());
 
-//envuelvo a la app con el provider para poder acceder al store desde toda la app
-
+//App wrapped in provider in order to have access to the store across the app.
 ReactDOM.render(
 	<React.StrictMode>
 		<Provider store={store}>
