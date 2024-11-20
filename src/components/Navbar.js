@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { useDispatch, useSelector } from "react-redux";
-import { changeLanguage } from "./Redux"; //para hacer el dispatch importo el action creator
+import { changeLanguage } from "../Redux"; //para hacer el dispatch importo el action creator
 
 const Navbar = () => {
 	const dispatch = useDispatch();

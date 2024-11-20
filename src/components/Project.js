@@ -1,7 +1,7 @@
 import "./Project.css";
 import React from "react";
 
-const Project = ({image,alt,name,description,tags,demo,git}) => {
+const Project = ({ image, alt, name, description, tags, demo, git }) => {
 	return (
 		<>
 			<div className='project-container'>

@@ -20,7 +20,7 @@
     z-index: -2;
 } */
 
-.project-container-father {
+.project-container-main {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -85,7 +85,7 @@
         height:1000px;
         /* min-width: 370px; 
     } */
-	.project-container-father {
+	.project-container-main {
 		margin-top: 1700px;
 	}
 
@@ -128,7 +128,7 @@
 		margin-bottom: 90px;
 	}
 
-	.project-container-father {
+	.project-container-main {
 		margin-top: 10px;
 	}
 

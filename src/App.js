@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import About from "./About";
 import Contact from "./Contact";
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
 import Skills from "./Skills";
 import { useSelector } from "react-redux";
 import ProjectsSection from "./ProjectsSection";

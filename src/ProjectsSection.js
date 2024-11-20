@@ -1,7 +1,7 @@
 import React from "react";
 import projects from "./projects.json"
 import { useSelector } from "react-redux";
-import Project from "./Project";
+import Project from "./components/Project";
 
 function ProjectsSection() {
     const language = useSelector((store) => store.language);
@@ -13,7 +13,7 @@ function ProjectsSection() {
 					{language === "spanish" ? "Proyectos" : "Projects"}
 				</h1>
 			</div>
-			<div className='project-container-father'>
+			<div className='project-container-main'>
 				{projects.map((project, i) => {
 					return (
 						<div className='box' key={i}>
