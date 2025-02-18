@@ -23,16 +23,16 @@ const skills = [
 		imgUrl: "/images/js.png",
 	},
 	{
+		name: "TypeScript",
+		imgUrl: "/images/typescript.png",
+	},
+	{
 		name: "React",
 		imgUrl: "/images/react.png",
 	},
 	{
 		name: "NextJS",
 		imgUrl: "/images/nextjs.svg",
-	},
-	{
-		name: "React Query",
-		imgUrl: "/images/reactq.png",
 	},
 	{
 		name: "Redux",
