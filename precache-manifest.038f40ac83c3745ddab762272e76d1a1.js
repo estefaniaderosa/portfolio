@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a228bd6a2d30fee9804277a544338ebf",
+    "revision": "277ad91c128ea0abcef0f8351b46d142",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "030accd36243e7a56500",
+    "revision": "730cd3cfda0a31c57725",
     "url": "/portfolio/static/css/main.68adfc77.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.8b0ab63b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "030accd36243e7a56500",
-    "url": "/portfolio/static/js/main.12553699.chunk.js"
+    "revision": "730cd3cfda0a31c57725",
+    "url": "/portfolio/static/js/main.95eed2b4.chunk.js"
   },
   {
     "revision": "0d4bf47b70941af9967b",
@@ -28,11 +28,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/14.651dd48b.svg"
   },
   {
-    "revision": "aa4be3333b10ab8a784f9bf6a7525dca",
-    "url": "/portfolio/static/media/ESTEFANIA_DE_ROSA_GIL_CV.aa4be333.pdf"
+    "revision": "66f4d81e52fc21ba12fdd890b3bce91f",
+    "url": "/portfolio/static/media/ESTEFANIA_DEROSAGIL_CV.66f4d81e.pdf"
   },
   {
-    "revision": "5477f8b881d18475d1227b9f2e440eef",
-    "url": "/portfolio/static/media/ESTEFANIA_DE_ROSA_GIL_CV_ES.5477f8b8.pdf"
+    "revision": "53956dea7fa676a329d53a2c0f1dc616",
+    "url": "/portfolio/static/media/ESTEFANIA_DEROSAGIL_CV_ES.53956dea.pdf"
   }
 ]);
