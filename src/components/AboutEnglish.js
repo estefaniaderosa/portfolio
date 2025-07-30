@@ -3,7 +3,7 @@ function AboutEnglish() {
 	return (
 		<div>
 			<p style={{ marginBottom: 10 }}>
-				Hi! <span>👋</span> I’m Estefanía, I am a frontend developer <span>👩🏻‍💻</span> with over two years
+				Hi! <span>👋</span> I’m Estefanía, I am a frontend developer <span>👩🏻‍💻</span> with over three years
 				of experience, specializing in HTML, CSS, JavaScript, and React. I am
 				passionate about creating smooth and engaging user experiences, focusing
 				on both functionality and web interface design.

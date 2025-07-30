@@ -3,7 +3,7 @@ function AboutSpanish() {
 	return (
 		<div>
 			<p style={{ marginBottom: 10 }}>
-				Hola! <span>👋</span> Soy Estefanía, Soy desarrolladora frontend <span>👩🏻‍💻</span> con más de dos
+				Hola! <span>👋</span> Soy Estefanía, Soy desarrolladora frontend <span>👩🏻‍💻</span> con más de tres
 				años de experiencia, especializada en HTML, CSS, JavaScript y React. Me
 				apasiona crear experiencias de usuario fluidas y atractivas, enfocándome
 				en la funcionalidad y el diseño de interfaces web.
