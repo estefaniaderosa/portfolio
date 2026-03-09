@@ -1,8 +1,8 @@
 import React from "react";
 import "./Contact.css";
 import { useSelector } from "react-redux";
-import Pdf from "./PDF/EstefaniaDeRosa_CV_en.pdf";
-import Pdf_es from "./PDF_ES/EstefaniaDeRosa_CV_es.pdf";
+import Pdf from "./PDF/EstefaniaDeRosa_cv_en.pdf";
+import Pdf_es from "./PDF_ES/EstefaniaDeRosa_cv_es.pdf";
 
 const contactItems = [
 	{

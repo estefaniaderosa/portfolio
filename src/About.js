@@ -18,7 +18,7 @@ const About = () => {
 
 				<div className='about-text'>
 					<h1>Estefanía De Rosa Gil</h1>
-					<h2>Front-end Developer</h2>
+					<h2>Frontend Developer</h2>
 					<div>
 						{language === "spanish" ? <AboutSpanish /> : <AboutEnglish />}
 					</div>
