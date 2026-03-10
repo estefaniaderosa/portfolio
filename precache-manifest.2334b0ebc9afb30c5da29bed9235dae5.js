@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d9e3e3ab5acdd5e93f58366326b6254",
+    "revision": "73fa4271630102b2bfdbdb87407dd271",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f654d23b59ea2381c21d",
+    "revision": "bf7c957dd3fc6268d027",
     "url": "/portfolio/static/css/main.68adfc77.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.8b0ab63b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f654d23b59ea2381c21d",
-    "url": "/portfolio/static/js/main.207a1851.chunk.js"
+    "revision": "bf7c957dd3fc6268d027",
+    "url": "/portfolio/static/js/main.89a271a3.chunk.js"
   },
   {
     "revision": "0d4bf47b70941af9967b",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/14.651dd48b.svg"
   },
   {
-    "revision": "3b080940b119423e57c6584d906e4298",
-    "url": "/portfolio/static/media/EstefaniaDeRosa_cv_en.3b080940.pdf"
+    "revision": "617f450ea14d47fd0d0b0ac039822bbb",
+    "url": "/portfolio/static/media/EstefaniaDeRosa_cv_en.617f450e.pdf"
   },
   {
     "revision": "7f2200e28326ce6bf052a423b75630d2",
